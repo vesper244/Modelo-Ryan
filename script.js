@@ -5,7 +5,7 @@ window.onload = function() {
 
     // Define o tempo de espera em milissegundos.
     // Para um redirecionamento quase instantâneo, você pode usar um valor baixo como 100 ou até 0.
-    const delay = 50; // Meio segundo de espera
+    const delay = 500; // Meio segundo de espera
 
     // Função que redireciona o usuário
     setTimeout(function() {
@@ -13,4 +13,5 @@ window.onload = function() {
     }, delay);
 
 };
+
 
