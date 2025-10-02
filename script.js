@@ -1,7 +1,7 @@
 // script.js
 window.onload = function() {
     // Defina o link para o qual você quer redirecionar o usuário
-    const destinationURL = "https://api.whatsapp.com/send/?phone=5511919728753&text&type=phone_number&app_absent=0"; // <-- TROQUE ESTE LINK!
+    const destinationURL = "https://wa.me/5511919728753"; // <-- TROQUE ESTE LINK!
 
     // Define o tempo de espera em milissegundos.
     // Para um redirecionamento quase instantâneo, você pode usar um valor baixo como 100 ou até 0.
@@ -13,3 +13,4 @@ window.onload = function() {
     }, delay);
 
 };
+
